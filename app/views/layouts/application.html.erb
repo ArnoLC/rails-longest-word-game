@@ -8,6 +8,17 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <style>
+    .flex-container {display: flex}
+    .flex-container > div {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      margin: 10px;
+      font-size: 30px;
+    }
+    </style>
   </head>
 
   <body>
